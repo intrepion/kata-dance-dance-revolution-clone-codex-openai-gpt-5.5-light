@@ -8,6 +8,10 @@ This context defines the gameplay language for a legally distinct browser rhythm
 A single playable song attempt from start through clear, fail, or results.
 _Avoid_: Level, round, match
 
+**Playfield**:
+The dominant screen area where lanes, receptors, and moving steps appear during a stage.
+_Avoid_: Board, highway, main panel
+
 **Countdown**:
 The short pre-stage timing sequence that begins after the player gesture and ends when the track and chart start together.
 _Avoid_: Intro, ready screen, delay
@@ -15,6 +19,10 @@ _Avoid_: Intro, ready screen, delay
 **Track**:
 The original audio piece used by a stage.
 _Avoid_: Song, music file, beat
+
+**Arcade Trance**:
+The target track style for the first stage, built from punchy drums and bright synth landmarks.
+_Avoid_: Techno, pop, funk
 
 **Chart**:
 The timed sequence of steps authored for a track.
@@ -75,3 +83,11 @@ _Avoid_: Rank, rating, score class
 **Best Result**:
 The locally saved best score and grade for the stage.
 _Avoid_: High score, record, save data
+
+**Autoplay**:
+A debug-only mode that automatically hits charted steps for timing verification.
+_Avoid_: Demo mode, bot, assist
+
+**Pause**:
+The temporary suspension of active stage timing, preserving the current stage state until resumed.
+_Avoid_: Stop, quit, break
