@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neon Step District</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hud hud-left" aria-label="Stage status">
+        <div class="brand">
+          <p class="eyebrow">Neon Step District</p>
+          <h1>Arcade Trance Stage</h1>
+        </div>
+        <div class="meter-group">
+          <div class="meter-label">
+            <span>Life</span>
+            <strong id="lifeValue">70%</strong>
+          </div>
+          <div class="life-shell" aria-hidden="true">
+            <div id="lifeFill" class="life-fill"></div>
+          </div>
+        </div>
+        <dl class="stats">
+          <div>
+            <dt>Score</dt>
+            <dd id="scoreValue">0</dd>
+          </div>
+          <div>
+            <dt>Combo</dt>
+            <dd id="comboValue">0</dd>
+          </div>
+          <div>
+            <dt>Best</dt>
+            <dd id="bestValue">None</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section class="stage" aria-label="Dance stage">
+        <div class="light-rig" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="crowd" aria-hidden="true">
+          <span></span><span></span><span></span><span></span><span></span>
+          <span></span><span></span><span></span><span></span><span></span>
+        </div>
+        <div id="playfield" class="playfield">
+          <div id="receptors" class="receptors" aria-label="Receptors"></div>
+          <div id="steps" class="steps" aria-hidden="true"></div>
+          <div class="floor-grid" aria-hidden="true"></div>
+        </div>
+        <div id="judgmentFlash" class="judgment-flash" aria-live="polite">Ready</div>
+        <div id="overlay" class="overlay">
+          <div class="overlay-panel">
+            <p class="eyebrow">Static browser rhythm-step MVP</p>
+            <h2 id="overlayTitle">Ready for the first stage?</h2>
+            <p id="overlayBody">Use the arrow keys to hit steps as they meet the receptors. Press Space to pause during play.</p>
+            <div class="key-map" aria-label="Keyboard controls">
+              <span><kbd>ArrowLeft</kbd><b>Left</b></span>
+              <span><kbd>ArrowDown</kbd><b>Down</b></span>
+              <span><kbd>ArrowUp</kbd><b>Up</b></span>
+              <span><kbd>ArrowRight</kbd><b>Right</b></span>
+            </div>
+            <button id="startButton" class="primary-button" type="button">Start Stage</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="hud hud-right" aria-label="Results and timing">
+        <div class="track-card">
+          <p class="eyebrow">Track</p>
+          <h2>Midnight Circuit</h2>
+          <p>75 seconds of original arcade trance.</p>
+        </div>
+        <dl class="judgments">
+          <div><dt>Perfect</dt><dd id="perfectCount">0</dd></div>
+          <div><dt>Great</dt><dd id="greatCount">0</dd></div>
+          <div><dt>Good</dt><dd id="goodCount">0</dd></div>
+          <div><dt>Miss</dt><dd id="missCount">0</dd></div>
+        </dl>
+        <div class="progress-card">
+          <div class="meter-label">
+            <span>Stage</span>
+            <strong id="timeValue">0:00</strong>
+          </div>
+          <div class="progress-shell" aria-hidden="true">
+            <div id="progressFill" class="progress-fill"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="game.js"></script>
+  </body>
+</html>
