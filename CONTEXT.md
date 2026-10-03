@@ -20,9 +20,17 @@ _Avoid_: Song, music file, beat
 The timed sequence of steps authored for a track.
 _Avoid_: Map, pattern, script
 
+**Chart Ramp**:
+The planned difficulty curve inside a chart, starting approachable and becoming denser later in the stage.
+_Avoid_: Difficulty spike, progression, pacing
+
 **Step**:
 A single directional input target within a chart.
 _Avoid_: Note, arrow, beat
+
+**Tap Step**:
+A step judged from a single press without a required hold or release.
+_Avoid_: Normal note, single, hit
 
 **Lane**:
 One of the four directional columns that carries steps toward its receptor.
@@ -40,9 +48,17 @@ _Avoid_: Reverse scroll, note highway, falling arrows
 The timing-quality result assigned when a player hits or misses a step.
 _Avoid_: Score event, rating, feedback
 
+**Nearest-Step Matching**:
+The input rule that assigns a keypress to the closest valid pending step in the same lane within the judgment window.
+_Avoid_: Earliest-note matching, first pending hit, strict queue
+
 **Combo**:
 The current streak of non-missed judgments within a stage.
 _Avoid_: Streak, chain, multiplier
+
+**Score**:
+The point total produced by judgment values during a stage.
+_Avoid_: Points, tally, grade
 
 **Life Bar**:
 The stage survival meter that rises on accurate judgments and falls on misses.
@@ -55,3 +71,7 @@ _Avoid_: Game over, death, loss
 **Grade**:
 The summary rank awarded on the results screen after a stage ends.
 _Avoid_: Rank, rating, score class
+
+**Best Result**:
+The locally saved best score and grade for the stage.
+_Avoid_: High score, record, save data
