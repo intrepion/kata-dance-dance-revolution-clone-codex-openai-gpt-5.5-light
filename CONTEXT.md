@@ -48,6 +48,10 @@ _Avoid_: Column, track, rail
 The fixed target position where incoming steps are judged.
 _Avoid_: Target, hit zone, goal
 
+**Direction Symbol**:
+The visible directional marker used on receptors and steps.
+_Avoid_: Arrow label, key label, icon
+
 **Upward Scroll**:
 The presentation model where steps travel from the bottom of the playfield toward receptors near the top.
 _Avoid_: Reverse scroll, note highway, falling arrows
@@ -76,9 +80,17 @@ _Avoid_: Health, energy, stamina
 The early end state reached when the life bar empties before the chart finishes.
 _Avoid_: Game over, death, loss
 
+**Retry**:
+The player action that immediately starts another attempt at the same stage from its countdown.
+_Avoid_: Restart, replay, rematch
+
 **Grade**:
 The summary rank awarded on the results screen after a stage ends.
 _Avoid_: Rank, rating, score class
+
+**Results Screen**:
+The post-stage summary showing clear or fail status, grade, score, judgment counts, max combo, and best result comparison.
+_Avoid_: Summary, scoreboard, report
 
 **Best Result**:
 The locally saved best score and grade for the stage.
