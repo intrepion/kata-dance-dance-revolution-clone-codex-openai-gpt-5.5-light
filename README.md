@@ -1,5 +1,9 @@
 # Neon Step District
 
+## Play online
+
+[Play Neon Step District](https://intrepion.github.io/kata-dance-dance-revolution-clone-codex-openai-gpt-5.5-light/) — free, playable in your browser.
+
 A legally distinct Dance Dance Revolution-inspired static browser game.
 
 Open `index.html` directly in a browser, or append `?autoplay=1` to watch the hidden chart-timing verifier play the stage automatically.
