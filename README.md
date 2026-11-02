@@ -20,3 +20,7 @@ Open `index.html` directly in a browser, or append `?autoplay=1` to watch the hi
 - `Perfect`, `Great`, `Good`, and `Miss` judgments
 - Life bar, stage fail, retry, results, grade, judgment counts, max combo, and locally saved best result
 - Dependency-free static HTML, CSS, and JavaScript
+
+## Arcade metadata
+
+See [docs/arcade-metadata.md](docs/arcade-metadata.md) for the game-owned manifest and screenshot provenance.
