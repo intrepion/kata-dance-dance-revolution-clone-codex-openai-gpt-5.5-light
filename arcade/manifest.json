@@ -1,6 +1,47 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "gameId": "kata-dance-dance-revolution-clone-codex-openai-gpt-5.5-light",
   "playUrl": "https://intrepion.github.io/kata-dance-dance-revolution-clone-codex-openai-gpt-5.5-light/",
-  "screenshots": []
+  "screenshots": [
+    {
+      "path": "arcade/screenshots/ci-20261102-01.jpg",
+      "sha256": "af9aef90344796c42797591331fa85cdeef5560565de9b54d36634f273c29a30",
+      "alt": "Neon Step District gameplay, view 1",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-01.png",
+        "sourceSha256": "00b72e363a466e00df4839158ac6f7ef56cb2b3c5216b1eab69b2ead41e9ee27",
+        "captureCommit": "4a871857962c2b7a1e2a16684a08679fb174a48f",
+        "workflowRunId": "41391778020",
+        "inputHashes": {
+          "index.html": "0a2cf984cd958b18854a905207a7a7a009ef7a52e93dafe691450baed20b9143",
+          "styles.css": "3c6f7fc7a630a280879ac327eeb59a2161e7753753c03adacef44ae99def8dec",
+          "game.js": "0e974bcd92d96aabf66ff807ac20fcdc35c2a404a93ac2d139be42b7d172d1ba"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "8b51428cd73b226ee512611bc6b73d13629d5174f361411720ca08060fc118b8"
+      }
+    },
+    {
+      "path": "arcade/screenshots/ci-20261102-02.jpg",
+      "sha256": "25cf877d5a595b682c931c7df011225c859a97830aee814a885e9edff5b57732",
+      "alt": "Neon Step District gameplay, view 2",
+      "provenance": {
+        "kind": "ci_gameplay_capture",
+        "sourcePath": "arcade/capture-evidence/ci-20261102-02.png",
+        "sourceSha256": "a9ee25372704d34bd8761d4814cd18f2ae0ba3b81dbafeb4a88a828836e9f6fc",
+        "captureCommit": "4a871857962c2b7a1e2a16684a08679fb174a48f",
+        "workflowRunId": "41391778020",
+        "inputHashes": {
+          "index.html": "0a2cf984cd958b18854a905207a7a7a009ef7a52e93dafe691450baed20b9143",
+          "styles.css": "3c6f7fc7a630a280879ac327eeb59a2161e7753753c03adacef44ae99def8dec",
+          "game.js": "0e974bcd92d96aabf66ff807ac20fcdc35c2a404a93ac2d139be42b7d172d1ba"
+        },
+        "publishedFilesVerifiedAt": "2026-11-02T19:01:20Z",
+        "captureRecordPath": "arcade/capture-evidence/ci-20261102-record.json",
+        "captureRecordSha256": "8b51428cd73b226ee512611bc6b73d13629d5174f361411720ca08060fc118b8"
+      }
+    }
+  ]
 }

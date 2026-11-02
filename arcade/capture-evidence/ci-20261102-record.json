@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "workflowCommit": "225ee52ecc3f4e1365047e54fb792532516ca043",
+  "sourceCommit": "4a871857962c2b7a1e2a16684a08679fb174a48f",
+  "runId": "41391778020",
+  "url": "http://127.0.0.1:4190/",
+  "inputs": {
+    "index.html": "0a2cf984cd958b18854a905207a7a7a009ef7a52e93dafe691450baed20b9143",
+    "styles.css": "3c6f7fc7a630a280879ac327eeb59a2161e7753753c03adacef44ae99def8dec",
+    "game.js": "0e974bcd92d96aabf66ff807ac20fcdc35c2a404a93ac2d139be42b7d172d1ba"
+  },
+  "browser": "153.0.8010.12",
+  "viewport": {
+    "width": 1280,
+    "height": 1000
+  },
+  "captureMode": "built-in autoplay",
+  "screenshots": [
+    "neon-step-01.png",
+    "neon-step-02.png"
+  ]
+}
